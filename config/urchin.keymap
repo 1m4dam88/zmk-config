@@ -17,6 +17,7 @@ ZMK_HOLD_TAP(hml,
     flavor = "balanced";
     tapping-term-ms = <280>;
     quick-tap-ms = <175>;
+    bindings = <&kp>, <&kp>;
 )
 
 ZMK_LAYER(default_layer,
