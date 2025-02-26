@@ -35,7 +35,7 @@ ZMK_HOLD_TAP(hmr,
     hold-trigger-on-release;
 )
 
-ZMK_CONDITIONAL_LAYER(sys, NUM SYM, EXT) // FN + NUM --> SYS.
+ZMK_CONDITIONAL_LAYER(ext, NUM SYM, EXT) // FN + NUM --> SYS.
 
 ZMK_LAYER(default_layer,
 			&kp Q &kp W &kp E &kp R &kp T                                     &kp Y &kp U  &kp I     &kp O   &kp P 
@@ -52,9 +52,9 @@ ZMK_LAYER(number_layer,
 )
 
 ZMK_LAYER(symbol_layer,
-      &kp LBRC &kp AMPS &kp ASTRK &kp LPAR &kp RBRC                     &kp F12 &kp F7 &kp F8 &kp F9 &kp PSCRN
-      &kp UNDERSCORE &kp DLLR &kp PRCNT &kp CARET &kp PLUS              &kp F11 &kp F4 &kp F5 &kp F6 &trans
-      &kp SEMI &kp EXCL &kp AT &kp HASH &kp PIPE                        &kp F10 &kp F1 &kp F2 &kp F3 &trans
+    &kp LBRC &kp AMPS &kp ASTRK &kp LPAR &kp RBRC                     &kp F12 &kp F7 &kp F8 &kp F9 &kp PSCRN
+    &kp UNDERSCORE &kp DLLR &kp PRCNT &kp CARET &kp PLUS              &kp F11 &kp F4 &kp F5 &kp F6 &kp DEL 
+    &kp SEMI &kp EXCL &kp AT &kp HASH &kp PIPE                        &kp F10 &kp F1 &kp F2 &kp F3 &trans
                                     &caps_word &trans                   &trans &trans
 )
 
