@@ -13,6 +13,7 @@
 #define DEF 0
 #define NUM 1
 #define SYM 2
+#define EXT 3
 
 
 /* left-hand HRMs */
@@ -34,6 +35,8 @@ ZMK_HOLD_TAP(hmr,
     hold-trigger-on-release;
 )
 
+ZMK_CONDITIONAL_LAYER(sys, NUM SYM, EXT) // FN + NUM --> SYS.
+
 ZMK_LAYER(default_layer,
 			&kp Q &kp W &kp E &kp R &kp T                                     &kp Y &kp U  &kp I     &kp O   &kp P 
 			&hml LGUI A &hml LALT S &hml LSHFT D &hml LCTRL F &kp G           &kp H &hmr LCTRL J  &hmr RSHFT K &hmr LALT L &hmr LGUI APOS
@@ -50,9 +53,14 @@ ZMK_LAYER(number_layer,
 
 ZMK_LAYER(symbol_layer,
       &kp LBRC &kp AMPS &kp ASTRK &kp LPAR &kp RBRC                     &kp F12 &kp F7 &kp F8 &kp F9 &kp PSCRN
-      &kp UNDERSCORE &kp DLLR &kp PRCNT &kp CARET &kp PLUS                   &kp F11 &kp F4 &kp F5 &kp F6 &trans
+      &kp UNDERSCORE &kp DLLR &kp PRCNT &kp CARET &kp PLUS              &kp F11 &kp F4 &kp F5 &kp F6 &trans
       &kp SEMI &kp EXCL &kp AT &kp HASH &kp PIPE                        &kp F10 &kp F1 &kp F2 &kp F3 &trans
-                                        &trans &trans                   &trans &trans
+                                    &caps_word &trans                   &trans &trans
 )
 
-ZMK_LAYER(extra)
+ZMK_LAYER(extra,
+      &bootloader &trans &trans &trans &trans  &trans &trans &trans &trans &bootloader
+      &trans &trans &trans &trans &trans       &trans &trans &trans &trans &trans
+      &trans &trans &trans &trans &trans       &bt BT_SEL 1 &trans &trans &trans &trans
+                           &trans &trans       &trans &trans
+)
