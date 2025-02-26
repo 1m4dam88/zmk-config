@@ -11,8 +11,8 @@
 #define THUMBS LH1 LH0 RH0 RH1 // thumb keys
 
 #define DEF 0
-#define NAV 1
-#define SYM 2
+#define FUN 1
+#define LAT 2
 
 /* left-hand HRMs */
 ZMK_HOLD_TAP(hml,
