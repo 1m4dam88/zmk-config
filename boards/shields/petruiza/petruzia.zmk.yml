@@ -1,0 +1,7 @@
+file_format: "1"
+id: petruzia
+name: PETRUZIA
+type: shield
+requires: [pro_micro]
+features:
+  - keys
