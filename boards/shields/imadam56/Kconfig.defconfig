@@ -1,0 +1,17 @@
+# Copyright (c) 2020 Ryan Cross
+# SPDX-License-Identifier: MIT
+
+if SHIELD_IMADAM56_LEFT
+
+config ZMK_KEYBOARD_NAME
+    default "imadam56"
+
+config ZMK_SPLIT_ROLE_CENTRAL
+    default y
+
+endif
+
+if SHIELD_IMADAM56_LEFT || SHIELD_IMADAM56_RIGHT
+config ZMK_SPLIT
+    default y
+endif

@@ -1,0 +1,14 @@
+file_format: "1"
+id: imadam56
+name: imadam56
+type: shield
+url: https://github.com/notimadam123/imadam56
+requires: [pro_micro]
+features:
+  - keys
+  - display
+  - encoder
+  - studio
+siblings:
+  - imadam56_left
+  - imadam56_right
