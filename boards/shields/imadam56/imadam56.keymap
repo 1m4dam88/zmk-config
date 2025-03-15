@@ -22,7 +22,7 @@
                  &kp LALT &kp LCTRL &mo 1  &kp SPACE                            &kp RET &mo 2  &kp RCTRL &kp RALT 
             >;
 
-            sensor-bindings = <&none>;
+            sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
           };
   };
 };
