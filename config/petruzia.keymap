@@ -62,5 +62,5 @@ ZMK_LAYER(ext,
       &bootloader &trans &trans &trans &trans  &trans &trans &trans &trans &bootloader
       &trans &trans &trans &trans &trans       &trans &trans &trans &trans &trans
       &trans &trans &trans &trans &trans       &bt BT_SEL 1 &trans &trans &trans &trans
-                           &trans &trans       &trans &trans
+                    &trans &trans &trans       &trans &trans &trans
 )
