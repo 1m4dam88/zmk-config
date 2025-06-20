@@ -24,21 +24,14 @@
     ;
 };
 
-&left_encoder_1 {
+&left_encoder_a {
     status = "okay";
 };
 
-&left_encoder_2 {
+&left_encoder_b {
     status = "okay";
 };
 
-&right_encoder_1 {
-    status = "okay";
-};
-
-&right_encoder_2 {
-    status = "okay";
-};
 
 &pinctrl {
     spi0_default: spi0_default {
