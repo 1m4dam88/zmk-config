@@ -17,13 +17,13 @@
     ;
 };
 
-&right_encoder_a {
-    status = "okay";
-};
-
-&right_encoder_b {
-    status = "okay";
-};
+//&right_encoder_a {
+//    status = "okay";
+//};
+//
+//&right_encoder_b {
+//    status = "okay";
+//};
 
 &pinctrl {
     spi0_default: spi0_default {
