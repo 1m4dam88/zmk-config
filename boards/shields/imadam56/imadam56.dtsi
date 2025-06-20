@@ -48,36 +48,28 @@ RC(3,0) RC(3,1) RC(3,2) RC(3,3) RC(3,4) RC(3,5) RC(4,5) RC(4,6) RC(3,6) RC(3,7) 
             ;
     };
 
-    left_encoder_1: encoder_left_1 {
+    left_encoder_1: encoder_left {
         compatible = "alps,ec11";
         a-gpios = <&pro_micro 20 (GPIO_ACTIVE_HIGH | GPIO_PULL_UP)>;
         b-gpios = <&pro_micro 21 (GPIO_ACTIVE_HIGH | GPIO_PULL_UP)>;
-        steps = <30>;
-        status = "disabled";
     };
 
-    left_encoder_2: encoder_left_2 {
+    left_encoder_2: encoder_bottom {
         compatible = "alps,ec11";
         a-gpios = <&pro_micro 22 (GPIO_ACTIVE_HIGH | GPIO_PULL_UP)>;
         b-gpios = <&pro_micro 23 (GPIO_ACTIVE_HIGH | GPIO_PULL_UP)>;
-        steps = <30>;
-        status = "disabled";
     };
 
-    right_encoder_1: encoder_right_1{
+    right_encoder_1: encoder_right {
         compatible = "alps,ec11";
         a-gpios = <&pro_micro 20 (GPIO_ACTIVE_HIGH | GPIO_PULL_UP)>;
         b-gpios = <&pro_micro 21 (GPIO_ACTIVE_HIGH | GPIO_PULL_UP)>;
-        steps = <30>;
-        status = "disabled";
     };
 
-    right_encoder_2: encoder_right_2 {
+    right_encoder_2: encoder_top {
         compatible = "alps,ec11";
         a-gpios = <&pro_micro 22 (GPIO_ACTIVE_HIGH | GPIO_PULL_UP)>;
         b-gpios = <&pro_micro 23 (GPIO_ACTIVE_HIGH | GPIO_PULL_UP)>;
-        steps = <30>;
-        status = "disabled";
     };
 
     sensors: sensors {
