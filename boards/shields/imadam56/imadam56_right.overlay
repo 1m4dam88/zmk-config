@@ -24,11 +24,11 @@
     ;
 };
 
-&right_encoder_1 {
+&right_encoder_a {
     status = "okay";
 };
 
-&right_encoder_2 {
+&right_encoder_b {
     status = "okay";
 };
 
