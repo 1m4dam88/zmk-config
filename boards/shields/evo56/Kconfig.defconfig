@@ -1,17 +1,5 @@
-# Copyright (c) 2020 Ryan Cross
-# SPDX-License-Identifier: MIT
-
-if SHIELD_IMADAM56_DONGLE
-
-config ZMK_KEYBOARD_NAME
-    default "evo56 Dongle"
-
-config ZMK_SPLIT_ROLE_CENTRAL
-    default y
-
-endif
-
 if SHIELD_IMADAM56_LEFT || SHIELD_IMADAM56_RIGHT
+
 config ZMK_SPLIT
     default y
 endif
@@ -27,8 +15,8 @@ config ZMK_SPLIT_ROLE_CENTRAL
 config ZMK_SPLIT
     default y
 
-  config ZMK_SPLIT_BLE_CENTRAL_PERIPHERALS
-    default 1
+config ZMK_SPLIT_BLE_CENTRAL_PERIPHERALS
+    default 2
 
 # Set this to ZMK_SPLIT_BLE_CENTRAL_PERIPHERALS + your desired number of BT profiles (default is 5)
 config BT_MAX_CONN
