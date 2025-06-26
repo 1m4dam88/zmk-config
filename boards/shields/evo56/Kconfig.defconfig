@@ -1,10 +1,10 @@
 # Copyright (c) 2020 Ryan Cross
 # SPDX-License-Identifier: MIT
 
-if SHIELD_IMADAM56_LEFT
+if SHIELD_IMADAM56_DONGLE
 
 config ZMK_KEYBOARD_NAME
-    default "evo56"
+    default "evo56 Dongle"
 
 config ZMK_SPLIT_ROLE_CENTRAL
     default y
