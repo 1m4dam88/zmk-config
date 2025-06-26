@@ -40,3 +40,5 @@ include:
     shield: petruzia
   - board: nice_nano_v2
     shield: settings_reset
+  - board: seeduino_xiao_ble
+    shield: imadam56_dongle prospector_adapter
