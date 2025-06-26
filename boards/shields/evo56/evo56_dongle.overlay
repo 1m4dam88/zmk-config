@@ -1,5 +1,5 @@
 #include <dt-bindings/zmk/matrix_transform.h>
-#import "evo56-layouts.dtsi"
+#include "evo56-layouts.dtsi"
 
 / {
     default_transform: keymap_transform0 {
@@ -21,7 +21,7 @@ RC(3,0) RC(3,1) RC(3,2) RC(3,3) RC(3,4) RC(3,5) RC(4,5) RC(4,6) RC(3,6) RC(3,7) 
     };
     chosen {
         zmk,kscan = &mock_kscan;
-        zmk,physical-layoput = &physical_layout0;
+        zmk,physical-layoput = &physical_layout_0;
     };
 
     mock_kscan: mock_kscan_0 {
