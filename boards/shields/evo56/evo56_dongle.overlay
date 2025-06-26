@@ -1,5 +1,5 @@
 #include <dt-bindings/zmk/matrix_transform.h>
-#include "evo56-layouts.dtsi"
+#import "evo56_layouts.dtsi"
 
 / {
     default_transform: keymap_transform0 {
