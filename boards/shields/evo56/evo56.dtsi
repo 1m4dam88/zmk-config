@@ -5,7 +5,7 @@
  */
 
 #include <dt-bindings/zmk/matrix_transform.h>
-#include "evo56-layouts.dtsi"
+#include "evo56_layouts.dtsi"
 
 &default_layout {
   transform = <&default_transform>;
