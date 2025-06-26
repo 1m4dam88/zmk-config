@@ -2,10 +2,10 @@
 # SPDX-License-Identifier: MIT
 
 config SHIELD_IMADAM56_LEFT
-    def_bool $(shields_list_contains,imadam56_left)
+    def_bool $(shields_list_contains,evo56_left)
 
 config SHIELD_IMADAM56_RIGHT
-    def_bool $(shields_list_contains,imadam56_right)
+    def_bool $(shields_list_contains,evo56_right)
 
 config SHIELD_IMADAM56_DONGLE
-    def_bool $(shields_list_contains,imadam56_dongle)
+    def_bool $(shields_list_contains,evo56_dongle)

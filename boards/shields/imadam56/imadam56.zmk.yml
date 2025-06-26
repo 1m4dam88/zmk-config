@@ -1,8 +1,8 @@
 file_format: "1"
-id: imadam56
-name: imadam56
+id: evo56
+name: evo56
 type: shield
-url: https://github.com/notimadam123/imadam56
+url: https://github.com/1m4dam88/evo-keyboard
 requires: [pro_micro]
 features:
   - keys
@@ -10,5 +10,5 @@ features:
   - encoder
   - studio
 siblings:
-  - imadam56_left
-  - imadam56_right
+  - evo56_left
+  - evo56_right
