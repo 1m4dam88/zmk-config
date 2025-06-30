@@ -1,11 +1,14 @@
-#include <physical_layouts.dtsi>
+include <physical_layouts.dtsi>
 
 / {
-    default_layout: physical_layout_0 {
-        compatible = "zmk,physical-layout";
-        display-name = "LAYOUT";
+    chosen {
+        zmk,kscan = &mock_kscan;
+        zmk,physical-layout = &physical_layout0;
+    };
 
-        kscan = <&kscan0>;
+    physical_layout0: physical_layout0 {
+        compatible = "zmk,physical-layout";
+        display-name = "Default Layout";
         transform = <&matrix_transform0>;
 
         keys  //                     w   h    x    y     rot    rx    ry
