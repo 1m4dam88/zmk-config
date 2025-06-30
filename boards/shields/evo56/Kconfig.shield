@@ -1,9 +1,9 @@
 # Copyright (c) 2020 Ryan Cross
 # SPDX-License-Identifier: MIT
 
-config SHIELD_IMADAM56_LEFT
+config SHIELD_EVO56_LEFT
     def_bool $(shields_list_contains,evo56_left)
 
-config SHIELD_IMADAM56_RIGHT
+config SHIELD_EVO56_RIGHT
     def_bool $(shields_list_contains,evo56_right)
 
