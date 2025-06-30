@@ -1,6 +1,6 @@
 file_format: "1"
-id: evo56
-name: evo56
+id: evo
+name: evo
 type: shield
 url: https://github.com/1m4dam88/evo-keyboard
 requires: [pro_micro]
@@ -10,5 +10,5 @@ features:
   - encoder
   - studio
 siblings:
-  - evo56_left
-  - evo56_right
+  - evo_left
+  - evo_right
