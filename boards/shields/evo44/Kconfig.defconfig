@@ -1,13 +1,13 @@
-if SHIELD_EVO_LEFT
+if SHIELD_EVO44_LEFT
 
 config ZMK_KEYBOARD_NAME
-    default "Evo"
+    default "evo44"
 
 config ZMK_SPLIT_ROLE_CENTRAL
     default y
 endif
 
-if SHIELD_EVO_LEFT || SHIELD_EVO_RIGHT
+if SHIELD_EVO44_LEFT || SHIELD_EVO44_RIGHT
 
 config ZMK_SPLIT
     default y
